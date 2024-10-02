@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header,
+footer {
+  height: 80px;
+  background-color: black;
+}
+
+.section-one {
+  height: 1000px;
+  background-color: aqua;
+  background-image: url(./bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+h1 {
+  background-color: rgba(255, 165, 0, 0.5);
+  padding: 50px 100px;
+  text-shadow: 5px -1px 7px rgba(62,206,89,0.94);
+}
+
+p {
+  padding: 30px 60px;
+}
+.pc {
+  background-color: black;
+  color: white;
+}
+.console {
+  background-color: orange;
+}
+
+.section-one-div {
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+}
+
+.box1 {
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.box2 {
+  border: 1px solid black;
+  -webkit-box-shadow: inset 18px 21px 44px 0px rgba(232, 23, 232, 0.64);
+  -moz-box-shadow: inset 18px 21px 44px 0px rgba(232, 23, 232, 0.64);
+  box-shadow: inset 18px 21px 44px 0px rgba(232, 23, 232, 0.64);
+}
